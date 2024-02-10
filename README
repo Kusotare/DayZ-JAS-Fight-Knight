@@ -1,0 +1,11 @@
+Modify the cfggameplay.json
+
+  In the "PlayerData" section, add the gear loadout json:
+    "spawnGearPresetFiles": ["custom/FightKnight.json"]
+
+  In the "WorldsData" section, add the arena's json:
+    "objectSpawnersArr": ["custom/Castle_Arena.json"]
+
+Add FightKnight.json and Castle_Arena.json files to the "custom" folder
+
+Upload the cfgplayerspawnpoints.xml file to the "dayzOffline.chernarusplus" folder
